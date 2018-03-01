@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "appcomments": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "NEW_PERSONAL_INFO": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "imageUpload": {
+    "dataSource": "imagefiles",
+    "public": true
+  }
+}

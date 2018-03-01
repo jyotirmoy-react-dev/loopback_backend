@@ -1,0 +1,30 @@
+{
+  "name": "NEW_PERSONAL_INFO",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "COMPANY": {
+      "type": "string"
+    },
+    "CONTACT_EMAIL": {
+      "type": "string"
+    },
+    "CONTACT_PHONE": {
+      "type": "string"
+    },
+    "CONTACT_NAME": {
+      "type": "string"
+    },
+    "APPID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

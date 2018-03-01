@@ -1,0 +1,29 @@
+{
+  "name": "appcomments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "appnumber": {
+      "type": "string",
+      "required": true
+    },
+    "amname": {
+      "type": "string",
+      "required": true
+    },
+    "comments": {
+      "type": "string"
+    },
+    "datettime": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
